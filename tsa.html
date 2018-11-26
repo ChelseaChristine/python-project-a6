@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <title>Twitter Sentiment Analysis with Python</title>
+  </head>
+<body>
+
+<h1>WHAT IS SENTIMENT ANALYSIS?</h1>
+
+<p>In August of 2014, Oxford Dictionaries <a href="http://time.com/3109043/oxford-dictionaries-adds-hot-mess-side-boob-throw-shade/">announced</a> a new batch of additions, amongst them, <em>Sentiment Analysis</em>. The entry states that it is "[t]he process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral." (<a href="https://en.oxforddictionaries.com/definition/sentiment_analysis">source</a>)</p>
+
+<p>While the concept might not be exactly new, the tools to perfect the extraction and analysis processes receive a considerable amount of attention from a diverse pool of fields of research. The definition itself hints at sentiment analysis covering reactions to a product, and one could safely infer how that information can be used by the manufacturers in order to improve the product itself or its marketing strategy. Besides that, sentiment analysis is known to aid in areas such as economy, advertising, sociology, and political science.</p>
+
+<p>This paper will explore the use of sentiment analysis in social media as implemented using the Python programming language along with a couple of its downloadable libraries. It will present a simple script as an introduction to the process and briefly point out its inner workings noting Python's flexible syntax as an argument for its wide use for these scripts. </p>
+
+
+<h2>SETTING UP PYTHON-TWITTER INTEGRATION:</h2>
+
+<p>The chosen platform to interact with the sentiment analysis script was Twitter due to the shortness of their messages and the tools readily available for this task: Tweepy and TextBlob. </p>
+
+<p><a href="https://www.pythoncentral.io/introduction-to-tweepy-twitter-for-python/
+    5 https://textblob.readthedocs.io/en/dev/">Tweepy</a> "enables Python to communicate with Twitter platform and use its API" and <a href="https://textblob.readthedocs.io/en/dev/index.html">Textblob</a> is a "library for processing textual data". Once Tweepy provides the credentials for accessing Twitter's users' messages (called 'tweets'), Textblob turns them into classifiable elements and starts the analysis stage.</p>
+
+<p>"The sentiment property returns a named tuple of the form Sentiment(polarity, subjectivity). The polarity score is a float within the range [-1.0, 1.0]. The subjectivity is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective." (<a href="https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis">source</a>)</p>
+
+<p>Based on the ratings, the script places the tweet into the positive, negative, or neutral categories and prints a small amount of messages for each segment, according to the parameters inserted onto the script's query field of the main function.</p>
+
+<p>It should be noted that this is far from being the only implementation possible, new Natural Languages Toolkit-based tools are being developed for this purpose at a steady pace (<a href="https://github.com/cjhutto/vaderSentiment">VADER Sentiment Analysis</a> is an example).
+
+<h2>CONCLUSION:</h2>
+
+<p>While the enormous challenge of analyzing natural languages seems daunting, the implementation of analyzers in Python proves to be easy and lightweight. </p>
+
+<p>The shortcomings of the output are expected (given the extremely basic framework and small input) but Python's ability to produce these scripts with ease as well as <a href="https://textblob.readthedocs.io/en/dev/quickstart.html#textblobs-are-like-python-strings">integrate its built-in string/substring methods</a> for better data management and control justify its extensive use for this purpose. </p>
+     </body>
+</html>
