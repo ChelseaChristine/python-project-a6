@@ -1,9 +1,8 @@
+print("Hello World!")
 
+#creating variables
 
 x = 5
 y = "John "
 
-print("x" + "y")
-
-print("Hello World!")
-
+print(x)

@@ -1,0 +1,33 @@
+How to start programming with python!
+
+With any kind of language, be a computer language or written language, 
+it can be difficult.  You always want to start slow and with the basics
+if possible.
+
+I had a chance to sit down with my significant other and talk to her about
+as she was self teaching herself python for her current job.
+
+One thing we agreed on is that it takes time and that it takes patience.
+Learning a new language can be difficult from the syntax to the sheer
+amount of what you can do with that.  When my significant other was
+learning she was utilizing code academy.  It is very nice since it 
+allows you to take it slow and learn at your rate with no pressure,
+the quizzes are also nice as well to help cement in your mind some of
+the concepts.
+
+Personally learning your first language can help you set a good foundation
+for learning others.  I found after learning python, that Java, HTML, and CSS
+were a lot easier to understand.  I myself also utilized code academy
+to self teach and continue teaching myself some programming languages
+Some basics to start with that I would recommend would be:
+
+1) Talk to someone who programs, you would be suprised from the amount
+of knowledge you can gain from it.
+
+2)Make sure you want to learn the language. Do some research and get
+an idea.  Nothing is worse than starting, then realizing that you
+are not enjoying it.
+
+3) If after step 1 and 2 has been done and you want to continue, 
+then I would start with code academy! Learn the basics from printing
+messages, to learning what variables are.
